@@ -1,0 +1,25 @@
+# Pretrained model weights and checkpoints
+pretrained_models/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets and experiment outputs
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.log
+wandb/
+outputs/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.DS_Store
